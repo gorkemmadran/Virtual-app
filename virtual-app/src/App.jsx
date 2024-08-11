@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Feature from './Feature';
+import Acceletare from './Acceletare';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 <Navbar/>
 <Hero/>
 <Feature/>
+<Acceletare/>
   </>
     
 
