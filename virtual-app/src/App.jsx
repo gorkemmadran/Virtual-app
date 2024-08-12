@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Feature from './Feature';
 import Acceletare from './Acceletare';
 import Pricing from './Pricing';
+import About from "./About"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 <Feature/>
 <Acceletare/>
 <Pricing/>
+<About/>
   </>
     
 
