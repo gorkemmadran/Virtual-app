@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Feature from './Feature';
 import Acceletare from './Acceletare';
+import Pricing from './Pricing';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 <Hero/>
 <Feature/>
 <Acceletare/>
+<Pricing/>
   </>
     
 
