@@ -5,6 +5,7 @@ import Feature from './Feature';
 import Acceletare from './Acceletare';
 import Pricing from './Pricing';
 import About from "./About"
+import Footer from "./Footer"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 <Acceletare/>
 <Pricing/>
 <About/>
+<Footer/>
   </>
     
 
