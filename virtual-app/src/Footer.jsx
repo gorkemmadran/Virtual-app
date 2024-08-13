@@ -36,12 +36,12 @@ export default function Footer() {
     ];
 
     return (
-        <footer className='bg-primary'>
-            <div className="container border-t-2 pt-4 border-gray-700  mx-auto flex  items-center justify-center gap-x-72">
+        <footer className='bg-primary pb-5'>
+            <div className="container border-t-2 pt-4 border-gray-700  mx-auto flex   justify-evenly ">
                 {
                     res.map((section, index) => (
                         <div key={index}>
-                            <h6 className='text-white text-2xl'>{section.title}</h6>
+                            <h6 className='text-white text-2xl xs:text-xl xs:pb-3'>{section.title}</h6>
                             <ul>
                                 {section.links.map((link, i) => (
                                     <li key={i}>
@@ -55,7 +55,7 @@ export default function Footer() {
                 {
                     platform.map((section, index) => (
                         <div key={index}>
-                            <h6 className='text-white text-2xl'>{section.title}</h6>
+                            <h6 className='text-white text-2xl xs:text-xl xs:pb-3'>{section.title}</h6>
                             <ul>
                                 {section.links.map((link, i) => (
                                     <li key={i}>
@@ -69,7 +69,7 @@ export default function Footer() {
                 {
                     community.map((section, index) => (
                         <div key={index}>
-                            <h6 className='text-white text-2xl'>{section.title}</h6>
+                            <h6 className='text-white text-2xl xs:text-xl xs:pb-3'>{section.title}</h6>
                             <ul>
                                 {section.links.map((link, i) => (
                                     <li key={i}>

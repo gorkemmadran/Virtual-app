@@ -38,10 +38,10 @@ export default function Feature() {
   ];
 
   return (
-    <section id='feature' className='feature bg-primary h-[700px]  '>
+    <section id='feature' className='feature bg-primary pb-14 h-[auto]  '>
       <div className='feature-title text-center'>
         <h6 className='text-orange-500 pt-14 font-semibold text-sm'>FEATURE</h6>
-        <h2 className='text-6xl pt-10 text-white'>
+        <h2 className=' xs:text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl pt-10 text-white'>
           Easily build <span className='bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-900'>your code</span>
         </h2>
       </div>

@@ -44,7 +44,7 @@ export default function Pricing() {
 
   return (
     <section id='pricing' className='pricing h-[auto] pb-[40px] bg-primary'>
-      <h2 className='text-center text-white text-6xl pt-16'>Pricing</h2>
+      <h2 className='text-center text-white  xs:text-4xl sm:text-5x md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl pt-16'>Pricing</h2>
       <div className="container flex mx-auto justify-center flex-wrap   gap-16  pt-24">
         {pricing.map((price, index) => (
           <div key={index} className="pricing-card flex  items-start rounded-md  flex-col border w-[333px] h-[433px] border-gray-600 p-6">

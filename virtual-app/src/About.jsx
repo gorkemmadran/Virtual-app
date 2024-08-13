@@ -54,7 +54,7 @@ export default function About() {
 
     return (
         <section className='about bg-primary pt-10 h-auto pb-20'>
-            <h2 className='text-center text-6xl text-white'>What People are Saying</h2>
+            <h2 className='text-center text-6xl xs:text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl text-white'>What People are Saying</h2>
             <div className="container pt-10 mx-auto flex flex-wrap justify-center gap-5 mt-10">
                 {personCard.map((person, index) => (
                     <div key={index}  className="card  flex flex-col justify-between bg-zinc-800 text-white p-5 rounded-md shadow-lg w-80">

@@ -27,11 +27,11 @@ export default function Acceletare() {
   ]
 
   return (
-    <section id='acceletare' className='acceletare bg-primary'>
+    <section id='acceletare' className='acceletare  bg-primary'>
       <div className='acc-title text-center pt-10'>
-        <h1 className='text-6xl text-white'>Accelerate your <span className='bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-900'>coding workflow.</span></h1>
+        <h1 className='xs:text-4xl sm:text-5x md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl text-white'>Accelerate your <span className='bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-900'>coding workflow.</span></h1>
       </div>
-      <div className="container flex items-center justify-center mt-10 gap-16 mx-auto">
+      <div className="container flex items-center justify-center mt-10 gap-16 mx-auto xs:flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
         <section>
           <img className='h-[500px] w-full' alt='CodeImg' src={Code}></img>
         </section>

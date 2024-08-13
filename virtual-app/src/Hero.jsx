@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <main className='pt-24 w-full bg-primary text-white h-screen flex justify-center'>
       <section>
-        <h1 className='text-6xl xs:text-5xl sm:text-5xl  md:text-5xl  lg:text-6xl  xl:text-6xl 2xl:text-6xl text-center'>
+        <h1 className='text-6xl xs:text-4xl sm:text-5xl  md:text-5xl  lg:text-6xl  xl:text-6xl 2xl:text-6xl text-center'>
           VirtualR build tools <span className='bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-900'>for</span><br/>
           <span className='bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-900'>developers</span>
         </h1>
